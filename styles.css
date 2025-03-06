@@ -1,6 +1,6 @@
 /* Define a cor de fundo e o estilo da página */
 body {
-    background-color: #f0f0f0;
+    background-color: #ebd7c1;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -11,9 +11,10 @@ body {
 
 /* Container para os links */
 .container {
-    background-color: #ffffff;
+    background: rgb(43,23,3);
+    background: linear-gradient(195deg, rgba(43,23,3,1) 0%, rgba(43,23,3,0.8935223747702206) 35%, rgba(43,23,3,0.7814775568430498) 100%);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(246, 132, 21);
     padding: 20px;
     width: 80%;
     max-width: 500px;
@@ -25,32 +26,44 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin-bottom: 15px;
 }
 
 /* Estilo do nome */
 h1 {
     margin: 0;
+    margin-bottom: 15px;
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
 }
-
+h3 {
+    margin: 0;
+    font-size: 17px;
+    color: #ffffff;
+}
 /* Estilo dos links */
 .link-container {
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 20px;
 }
 
 .link {
-    display: block;
-    background-color: #007bff;
-    color: white;
-    padding: 15px;
-    margin: 10px 0;
+    display:flow-root;
+    background-color: #2B1703;
+    color: #F68415;
+    padding: 20px;
+    width: 60%;
+    margin: 12px auto;
     text-decoration: none;
-    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(246, 132, 21);
+    border-radius: 25px;
     transition: background-color 0.3s;
 }
 
 .link:hover {
-    background-color: #0056b3;
+    background-color: rgba(255, 166, 0, 0.027);
+    transform: scale(0.9) rotate(0deg);
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+
 }
